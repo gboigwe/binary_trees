@@ -4,7 +4,6 @@
  * binary_tree_node - Creating a node
  * @parent: Parent in a node
  * @value: Value of a node
- *
  * Return: The node tree
  */
 
