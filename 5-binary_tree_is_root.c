@@ -13,7 +13,7 @@ int binary_tree_is_root(const binary_tree_t *node)
 	{
 		return (0);
 	}
-	else if (node->left != NULL && node->right != NULL)
+	else if (node->parent == NULL)
 	{
 		return (1);
 	}
