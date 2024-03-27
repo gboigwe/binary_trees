@@ -4,6 +4,8 @@
  * binary_tree_is_leaf - Check if a node has no child and has parent
  * basically if node is leaf
  * @node: The node to be checked
+ *
+ * Return: 1 if node is NULL
  */
 
 int binary_tree_is_leaf(const binary_tree_t *node)
